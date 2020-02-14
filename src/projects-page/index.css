@@ -1,0 +1,9 @@
+.projects-page-wrap {
+    min-height: calc(100vh - 102px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}

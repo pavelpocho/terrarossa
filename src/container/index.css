@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+.container {
+    width: 100%;
+}
+.dialog-wrap {
+    z-index: 10;
+}
+body, button, p, a {
+    font-family: /*'Roboto Slab', */Arial, Helvetica, sans-serif !important;
+}
+.master-container {
+    position: fixed;
+    z-index: 0;
+    height: calc(100vh - 82px);
+    top: 82px;
+    box-sizing: border-box;
+    padding: 20px 0px 0px;
+    width: 100%;
+    overflow-y: scroll;
+}
+.inner-container {
+    position: absolute;
+    transition: opacity 0.5s;
+    width: 100%;
+    margin-bottom: 48px;
+}
